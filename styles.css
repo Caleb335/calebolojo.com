@@ -17,9 +17,37 @@ hr {
     font-weight: 20;
     border-color: #ff6b6b;
 }
-progress {
-    width: 250px;
-    border-radius: 10px!important;
+.box {
+    height: 15px;
+    width: 70%;
+    border-radius: 5px;
+    color: #000;
+    background: #10ac84;
+    padding: 8px;
+}
+.box1 {
+    height: 15px;
+    width: 63%;
+    border-radius: 5px;
+    color: #000;
+    background: #10ac84;
+    padding: 8px;
+}
+.box2 {
+    height: 15px;
+    width: 55%;
+    border-radius: 5px;
+    color: #000;
+    background: #10ac84;
+    padding: 8px;
+}
+.box3 {
+    height: 15px;
+    width: 40%;
+    border-radius: 5px;
+    color: #000;
+    background: #10ac84;
+    padding: 8px;
 }
 .summary {
     float: right;
@@ -28,4 +56,31 @@ progress {
 .skills {
     clear: right;
     width: 50%;
+}
+.quotes {
+    height: 150px;
+    width: 450px;
+    box-shadow: 1px 2px 3px #10ac84;
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-top: 13px;
+    padding: 3px;
+}
+.login {
+    height: 150px;
+    width: 450px;
+    box-shadow: 1px 2px 3px #10ac84;
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-top: 13px;
+    padding-top: 10px;
+}
+.weather {
+    height: 150px;
+    width: 450px;
+    box-shadow: 1px 2px 3px #10ac84;
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-top: 13px;
+    padding-top: 10px;
 }

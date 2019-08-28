@@ -13,6 +13,9 @@ img {
     color: #ff6b6b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.contact {
+    color: #ff6b6b;
+}
 hr {
     font-weight: 20;
     border-color: #ff6b6b;
@@ -63,7 +66,7 @@ hr {
     box-shadow: 1px 2px 3px #10ac84;
     border-radius: 13px;
     margin-left: 10px;
-    margin-top: 13px;
+    margin-top: 18px;
     padding: 3px;
 }
 .login {
@@ -72,7 +75,7 @@ hr {
     box-shadow: 1px 2px 3px #10ac84;
     border-radius: 13px;
     margin-left: 10px;
-    margin-top: 13px;
+    margin-top: 18px;
     padding-top: 10px;
 }
 .weather {
@@ -83,4 +86,11 @@ hr {
     margin-left: 10px;
     margin-top: 13px;
     padding-top: 10px;
+}
+.social {
+    height: 4px;
+    width: 4px;
+}
+.Js {
+    color:  #ff6b6b;
 }

@@ -3,6 +3,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ff6b6b;
 }
+.container {
+    width: 800px;
+    margin-left: 280px;
+}
 img {
     padding-top: 15px;
     height: 200px;
@@ -18,7 +22,7 @@ img {
 }
 hr {
     font-weight: 20;
-    border-color: #ff6b6b;
+    border-color: #40536b;
 }
 .box {
     height: 15px;
@@ -52,40 +56,8 @@ hr {
     background: #10ac84;
     padding: 8px;
 }
-.summary {
-    float: right;
-    width: 50%;
-}
-.skills {
-    clear: right;
-    width: 50%;
-}
-.quotes {
-    height: 150px;
-    width: 450px;
-    box-shadow: 1px 2px 3px #10ac84;
-    border-radius: 13px;
-    margin-left: 10px;
-    margin-top: 18px;
-    padding: 3px;
-}
-.login {
-    height: 150px;
-    width: 450px;
-    box-shadow: 1px 2px 3px #10ac84;
-    border-radius: 13px;
-    margin-left: 10px;
-    margin-top: 18px;
-    padding-top: 10px;
-}
-.weather {
-    height: 150px;
-    width: 450px;
-    box-shadow: 1px 2px 3px #10ac84;
-    border-radius: 13px;
-    margin-left: 10px;
-    margin-top: 13px;
-    padding-top: 10px;
+.project-container {
+    margin-top: 40px;
 }
 .social {
     height: 4px;

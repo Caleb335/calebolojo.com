@@ -25,36 +25,36 @@ hr {
     border-color: #40536b;
 }
 .box {
-    height: 15px;
+    height: 13px;
     width: 70%;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #000;
     background: #10ac84;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 .box1 {
-    height: 15px;
+    height: 13px;
     width: 63%;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #000;
     background: #10ac84;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 .box2 {
-    height: 15px;
-    width: 55%;
-    border-radius: 5px;
+    height: 13px;
+    width: 48%;
+    border-radius: 4px;
     color: #000;
     background: #10ac84;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 .box3 {
-    height: 15px;
+    height: 13px;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #000;
     background: #10ac84;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 .project-container {
     margin-top: 40px;

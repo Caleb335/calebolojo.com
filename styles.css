@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: #130f40;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +28,7 @@ hr {
     border-color: #40536b;
 }
 .box {
-    height: 13px;
+    height: 17px;
     width: 70%;
     border-radius: 4px;
     color: #000;
@@ -33,7 +36,7 @@ hr {
     padding-bottom: 8px;
 }
 .box1 {
-    height: 13px;
+    height: 17px;
     width: 63%;
     border-radius: 4px;
     color: #000;
@@ -41,7 +44,7 @@ hr {
     padding-bottom: 8px;
 }
 .box2 {
-    height: 13px;
+    height: 17px;
     width: 48%;
     border-radius: 4px;
     color: #000;
@@ -49,7 +52,7 @@ hr {
     padding-bottom: 8px;
 }
 .box3 {
-    height: 13px;
+    height: 17px;
     width: 40%;
     border-radius: 5px;
     color: #000;

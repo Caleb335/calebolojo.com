@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #130f40;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ff6b6b;
+}
+.container {
+    width: 800px;
+    margin-left: 280px;
+}
+img {
+    padding-top: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.header {
+    color: #ff6b6b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact {
+    color: #ff6b6b;
+}
+hr {
+    font-weight: 20;
+    border-color: #40536b;
+}
+.box {
+    height: 17px;
+    width: 70%;
+    border-radius: 4px;
+    color: #000;
+    background: #10ac84;
+    padding-bottom: 8px;
+}
+.box1 {
+    height: 17px;
+    width: 63%;
+    border-radius: 4px;
+    color: #000;
+    background: #10ac84;
+    padding-bottom: 8px;
+}
+.box2 {
+    height: 17px;
+    width: 48%;
+    border-radius: 4px;
+    color: #000;
+    background: #10ac84;
+    padding-bottom: 8px;
+}
+.box3 {
+    height: 17px;
+    width: 40%;
+    border-radius: 5px;
+    color: #000;
+    background: #10ac84;
+    padding-bottom: 8px;
+}
+.project-container {
+    margin-top: 40px;
+}
+.social {
+    height: 4px;
+    width: 4px;
+}
+.Js {
+    color:  #ff6b6b;
+}
+
+/* Media queries */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* for desktop */
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

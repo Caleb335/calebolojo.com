@@ -125,7 +125,7 @@ hr {
 
 .form-wrapper #error-message {
     margin-bottom: 15px;
-    padding: 12px;
+    padding: 0px;
     background: red;
     text-align: center;
     font-size: .7rem;

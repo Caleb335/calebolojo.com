@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CALEB</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
                 <img src="https://res.cloudinary.com/dsrp8unmz/image/upload/v1554366793/Screenshot_20190303-204956.png" alt="Caleb" class="center">
                 <h1>CALEB A. OLOJO</h1>
                 <h3><i>Jnr front-end developer</i></h3>
-                <p>44, ojora Street, ajegunle apapa, Lagos. <a class="contact" href="mailto:calebolojo@gmail.com">calebolojo@gmail.com</a>, <a class="contact" href="https://github.com/caleb335">github profile</a></p> 
+                <p>44, ojora Street, ajegunle apapa, Lagos. <a class="contact" href="mailto:calebolojo@gmail.com"><i class="fa fa-gmail"></i></a> <a class="contact" href="https://github.com/caleb335"><i class="fa fa-github"></i></a></p> 
             </div>
         </center>
         <hr>
@@ -53,16 +54,17 @@
             Kwara state University, Malete, Ilorin.   August 2017 – Till date
         </div>
 
-        <div class="form-container">
-            <form class="contact-me" action="#">
+            <h2>Contact Me</h2>
+            <form name="contact-form" class="contact-me" action="#" onsubmit="return valdiateForm()">
                 <label>Name</label>
-                <input type="text"  class="name" placeholder="Tell me your name">
+                <input type="text" name="name"  class="details" placeholder="Tell me your name">
                 <label>Email</label>
-                <input type="email" class="email" placeholder="example@gmail.com">
+                <input type="email" name="email" class="details" placeholder="example@gmail.com">
                 <label>Title (subject)</label>
-                <input type="text" class="subject" placeholder="Message title">
-                <label>leave me a Message</label>
+                <input type="text" name="title" class="details" placeholder="Message title">
+                <label>Leave me a Message</label>
                 <textarea name="message" id="your-message" cols="30" rows="10" placeholder="Type your message"></textarea>
+                <input type="submit" value="SEND" name="send" class="btn">
             </form>
         </div>
 

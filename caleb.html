@@ -15,7 +15,7 @@
                 <img src="https://res.cloudinary.com/dsrp8unmz/image/upload/v1554366793/Screenshot_20190303-204956.png" alt="Caleb" class="center">
                 <h1>CALEB A. OLOJO</h1>
                 <h3><i>Jnr front-end developer</i></h3>
-                <p>44, ojora Street, ajegunle apapa, Lagos. <a class="contact" href="mailto:calebolojo@gmail.com"><i class="fa fa-gmail"></i></a> <a class="contact" href="https://github.com/caleb335"><i class="fa fa-github"></i></a></p> 
+                <p><a class="contact" href="mailto:calebolojo@gmail.com"><i class="fa fa-gmail"></i></a> <a class="contact" href="https://github.com/caleb335"><i class="fa fa-github"></i></a></p> 
             </div>
         </center>
         <br>
@@ -54,6 +54,28 @@
             Kwara state University, Malete, Ilorin.   August 2017 – Till date
         </div>
 
+        <div class="wrapper">
+            <h2>Contact Me</h2>
+            <div id="error_message"></div>
+
+            <form id="myForm" onsubmit="return validateForm()">
+                <div class="input_field">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email Address" id="email" required>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Message Title" id="title">
+                </div>
+                <div class="input_field">
+                    <textarea id="message" placeholder="Message" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
     </div>
 
     <script src="index.js"></script>

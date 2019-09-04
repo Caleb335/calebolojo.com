@@ -37,8 +37,8 @@
             <div class="quotes">
                 <p>Quote generator <br> Created a random quote generator with HTML 5 CSS3 and JavaScript using arrays, JavaScript functions and event listeners, such that once the button on the app is clicked, it displays, randomly a quote from the array.
                 <br> <i>HTML, CSS, Bootstrap & JavaScript.</i></p>
-            </div>
-            <div class="login">
+            </div> 
+            <br><div class="login">
                 Login form <br> Recreated a responsive login form based on some previous designs, used bootstrap CDN and JavaScript for form validation.
                 <br> <i>JavaScript</i>
             </div> <br>
@@ -48,26 +48,37 @@
             </div>
         </div>
         <div class="edu">
-            <h2>Education</h2> <hr>
-            <p><strong>Bachelors Degree(B.Sc)</strong> <br>
+            <br><h2>Education</h2> <hr>
+            <br><p><strong>Bachelors Degree(B.Sc)</strong> <br>
             Aerospace Engineering <br>
             Kwara state University, Malete, Ilorin.   August 2017 – Till date
         </div>
 
-            <h2>Contact Me</h2>
-            <form name="contact-form" class="contact-me" action="#" onsubmit="return valdiateForm()">
-                <label>Name</label>
-                <input type="text" name="name"  class="details" placeholder="Tell me your name">
-                <label>Email</label>
-                <input type="email" name="email" class="details" placeholder="example@gmail.com">
-                <label>Title (subject)</label>
-                <input type="text" name="title" class="details" placeholder="Message title">
-                <label>Leave me a Message</label>
-                <textarea name="message" id="your-message" cols="30" rows="10" placeholder="Type your message"></textarea>
-                <input type="submit" value="SEND" name="send" class="btn">
+        <div class="form-wrapper">
+            <br><h2>Contact Me</h2>
+            <div id="error-message"></div>
+            <form id="myForm">
+                <div class="input-field">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" id="email">
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Subject" id="subject">
+                </div>
+                <div class="input-field">
+                  <textarea id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
             </form>
         </div>
 
+        </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

@@ -9,21 +9,18 @@
 }
 
 body {
-    background: #fff;
+    background: ghostwhite
 }
 .container {
     width: 800px;
     margin-left: 280px;
+    background: #fff;
 }
 img {
     padding-top: 15px;
     height: 200px;
     width: 200px;
     border-radius: 100px;
-}
-.header {
-    color: #ff6b6b;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .contact {
     color: #ff6b6b;
@@ -141,7 +138,29 @@ hr {
 }
 
 
+.social-media i {
+    font-size: 3rem;
+    transition: color 5s;
+}
 
+.fa-github {
+    color: #333;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+.footer {
+    margin-top: 18px;
+    padding: 13px;
+    width: 100%;
+    background: #10ac84;
+}
 /* #message {
     width: 70%;
     border: none;

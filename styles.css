@@ -139,8 +139,9 @@ hr {
 
 
 .social-media i {
-    font-size: 3rem;
+    font-size: 8rem;
     transition: color 5s;
+    align-items: center;
 }
 
 .fa-github {
@@ -159,7 +160,7 @@ hr {
     margin-top: 18px;
     padding: 13px;
     width: 100%;
-    background: #10ac84;
+    background: #333;
 }
 /* #message {
     width: 70%;

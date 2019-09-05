@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CALEB</title>
 </head>
 <body>
@@ -14,17 +15,16 @@
                 <img src="https://res.cloudinary.com/dsrp8unmz/image/upload/v1554366793/Screenshot_20190303-204956.png" alt="Caleb" class="center">
                 <h1>CALEB A. OLOJO</h1>
                 <h3><i>Jnr front-end developer</i></h3>
-                <p>44, ojora Street, ajegunle apapa, Lagos. <a class="contact" href="mailto:calebolojo@gmail.com">calebolojo@gmail.com</a>, <a class="contact" href="https://github.com/caleb335">github profile</a></p> 
             </div>
         </center>
-        <hr>
+        <br>
         <div class="summary">
             <h2><i>Summary</i></h2> <hr>
             <p><i>Junior front-end developer, Aerospace engineerimg Undergraduate, kwara state University, Malete, <br> eager to learn new things from anyone, collaborate with colleagues and looking forward to increase increase my skills</i></p>
-        </div>
+        </div> <br>
         <div class="skills">
             <h2>Skills</h2> <hr>
-            <div class="box">HTML 5</div> <br>
+            <br><div class="box">HTML 5</div> <br>
             <div class="box1">CSS 3</div> <br>
             <div class="box2">JavaScript</div> <br>
             <div class="box3">Git </div>
@@ -36,8 +36,8 @@
             <div class="quotes">
                 <p>Quote generator <br> Created a random quote generator with HTML 5 CSS3 and JavaScript using arrays, JavaScript functions and event listeners, such that once the button on the app is clicked, it displays, randomly a quote from the array.
                 <br> <i>HTML, CSS, Bootstrap & JavaScript.</i></p>
-            </div>
-            <div class="login">
+            </div> 
+            <br><div class="login">
                 Login form <br> Recreated a responsive login form based on some previous designs, used bootstrap CDN and JavaScript for form validation.
                 <br> <i>JavaScript</i>
             </div> <br>
@@ -47,11 +47,39 @@
             </div>
         </div>
         <div class="edu">
-            <h2>Education</h2> <hr>
-            <p><strong>Bachelors Degree(B.Sc)</strong> <br>
+            <br><h2>Education</h2> <hr>
+            <br><p><strong>Bachelors Degree(B.Sc)</strong> <br>
             Aerospace Engineering <br>
             Kwara state University, Malete, Ilorin.   August 2017 – Till date
         </div>
+        <div class="wrapper">
+            <h2>Contact Me</h2>
+            <div id="error_message"></div>
+
+            <form id="myForm" onsubmit="return validateForm()">
+                <div class="input_field">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email Address" id="email">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Message Title" id="title">
+                </div>
+                <div class="input_field">
+                    <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
     </div>
+    <div id="footer">
+        <a href="https://twitter.com/calebolojo"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/caleb335"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/caleb-olojo-b4267a16b"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

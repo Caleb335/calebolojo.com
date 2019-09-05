@@ -9,12 +9,13 @@
 }
 
 body {
-    background: ghostwhite
+    background: rgb(41, 41, 128);
+    color: ghostwhite;
 }
 .container {
     width: 800px;
     margin-left: 280px;
-    background: #fff;
+    background: rgb(41, 41, 128);
 }
 img {
     padding-top: 15px;
@@ -27,7 +28,7 @@ img {
 }
 hr {
     font-weight: 20;
-    border-color: #40536b;
+    border-color: #316eb8;
 }
 .box {
     height: 1.5rem;
@@ -73,14 +74,13 @@ hr {
     width: 4px;
 }
 .Js {
-    color:  #ff6b6b;
+    color:  ghostwhite;
 }
 
 .wrapper {
     width: 100%;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: .5rem .5rem 1rem ghostwhite;
 }
 
 .wrapper h2 {
@@ -88,7 +88,7 @@ hr {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #000;
+    color: ghostwhite;
 }
 
 .wrapper .input_field {

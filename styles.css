@@ -162,6 +162,27 @@ hr {
     width: 100%;
     background: #333;
 }
+
+@media(max-width: 800px) {
+    .container{ display: block; }
+    /* .main-container {
+  
+    } */
+    .skills { display: block; }
+  
+    h2,p {
+      text-align: center;
+      margin: auto;
+    }
+  
+     .project-container,
+     .wrapper {
+      width:70%;margin: auto;display: block;
+    }
+    
+  }
+  
+  
 /* #message {
     width: 70%;
     border: none;

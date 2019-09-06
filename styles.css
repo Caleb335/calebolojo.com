@@ -139,9 +139,10 @@ hr {
 
 
 .social-media i {
-    font-size: 8rem;
+    font-size: 30rem;;
     transition: color 5s;
     align-items: center;
+    margin-left: 50%;
 }
 
 .fa-github {
@@ -156,11 +157,11 @@ hr {
     color: blue;
 }
 
-.footer {
+footer {
     margin-top: 18px;
     padding: 13px;
     width: 100%;
-    background: #333;
+    background: #10ac84;
 }
 
 @media(min-width: 730px) {
@@ -168,7 +169,6 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
     }
 
     .skills { display: flex; }

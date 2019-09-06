@@ -9,13 +9,13 @@
 }
 
 body {
-    background: rgb(41, 41, 128);
+    background: #2c3e50;
     color: ghostwhite;
 }
 .container {
     width: 730px;
-    margin-left: 280px;
-    background: rgb(41, 41, 128);
+    margin-left: 250px;
+    background: #2c3e50;
 }
 img {
     padding-top: 15px;
@@ -157,6 +157,10 @@ hr {
     color: blue;
 }
 
+.details {
+    margin-top: .6rem;
+}
+
 footer {
     margin-top: 18px;
     padding: 13px;
@@ -164,17 +168,26 @@ footer {
     background: #10ac84;
 }
 
-@media(min-width: 730px) {
+@media(max-width: 730px) {
     body { 
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        margin-right: 15px;
+        margin-left: -235px;
+        background: #34495e;
     }
 
-    .skills { display: flex; }
+    .container {
+        background: #34495e;
+    }
+
+    .skills { display: block; }
   
     h2,p {
-      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1rem;  
+      text-align: left;
       margin: auto;
     }
     

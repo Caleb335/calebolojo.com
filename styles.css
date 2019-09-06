@@ -141,12 +141,12 @@ hr {
 .social-media i {
     font-size: 30rem;;
     transition: color 5s;
-    align-items: center;
     margin-left: 50%;
 }
 
 .fa-github {
     color: #333;
+    font-size: 16px;
 }
 
 .fa-twitter {
@@ -181,7 +181,13 @@ footer {
         background: #34495e;
     }
 
-    .skills { display: block; }
+    .skills { 
+        display: block;
+     }
+
+     .footer {
+         width: 100%;
+     }
   
     h2,p {
       display: flex;

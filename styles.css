@@ -163,17 +163,15 @@ hr {
     background: #333;
 }
 
-@media(max-width: 800px) {
-    .container{ 
+@media(min-width: 730px) {
+    body { 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
-    /* .main-container {
-  
-    } */
-    .skills { display: block; }
+
+    .skills { display: flex; }
   
     h2,p {
       text-align: center;
